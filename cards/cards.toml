@@ -1,0 +1,163 @@
+[card.rexne-nightmare-king]
+id = 420691
+name = "Rexne the Nightmare King"
+attribute = "dark"
+level = 7
+type = "monster normal"
+race = "zombie"
+set = "nightmare-king"
+flavor-text = '''Rexne was once human but died to the heretics of the Wet Dream Church. Now king of the beastly, Nightmare World, he invades other worlds with his army to conquer them and feel more pleasure.'''
+atk = 3000
+def = 3000
+ot = "CUSTOM"
+
+[card.pleasure-painter]
+id = 420692
+name = "Pleasure Painter"
+attribute = "dark"
+level = 2
+type = "monster normal tuner"
+race = "zombie"
+set = "nightmare-king"
+flavor-text = '''When Rexne became the Nightmare King, these monsters were born. These nightmarish artists create artwork of beautiful women masturbating to the most twisted things imaginable.'''
+atk = 400
+def = 200
+ot = "CUSTOM"
+
+[card.horniness-from-nightmares]
+id = 420693
+name = "Horniness from the Nightmare World"
+attribute = "dark"
+level = 3
+pendulum-scale = 7
+type = "monster effect pendulum"
+race = "zombie"
+set = "nightmare-king"
+effect = '''If this card is sent from your hand or Deck to your GY by an opponent's card effect: Special Summon this card.'''
+atk = 1700
+def = 1500
+ot = "CUSTOM"
+
+[card.corruption-from-nightmares]
+id = 420694
+name = "Corruption from the Nightmare World"
+attribute = "dark"
+level = 7
+pendulum-scale = 1
+type = "monster effect pendulum"
+race = "zombie"
+set = "nightmare-king"
+effect = '''If this card is sent from your hand or Deck to your GY by an opponent's card effect: Special Summon this card.'''
+atk = 2800
+def = 3000
+ot = "CUSTOM"
+
+[card.nk-horny-maiden-serena]
+id = 420695
+name = "Nightmare King's Horny Maiden Serena"
+attribute = "dark"
+level = 5
+pendulum-scale = 5
+pendulum-effect = '''If a Zombie-Type monster you control attacks a Defense Position monster, inflict piercing battle damage to your opponent.'''
+type = "monster normal pendulum"
+race = "zombie"
+set = "nightmare-king nk-horny-maiden"
+flavor-text = '''She was a Pokémon performer who wants to make people smile but now, she performs for the Nightmare King and his army.'''
+atk = 2000
+def = 0
+ot = "CUSTOM"
+
+[card.nk-horny-maiden-lillie]
+id = 420696
+name = "Nightmare King's Horny Maiden Lillie"
+attribute = "dark"
+level = 4
+pendulum-scale = 4
+pendulum-effect = '''Negate all card effects in your opponent's Pendulum Zones.'''
+type = "monster normal pendulum"
+race = "zombie"
+set = "nightmare-king nk-horny-maiden"
+flavor-text = '''She was a Pokémon trainer who wants to find her father again but now, she found her new family in the Nightmare King's army.'''
+atk = 1800
+def = 0
+ot = "CUSTOM"
+
+[card.bone-bone]
+id = 420697
+name = "Bone Bone"
+attribute = "dark"
+level = 3
+pendulum-scale = 1
+pendulum-effect = '''Once per turn: You can roll a six-sided die. Until the end of this turn, increase this card's Pendulum Scale by that number (max. 7).'''
+type = "monster normal pendulum"
+race = "zombie"
+set = "nightmare-king"
+flavor-text = '''When Rexne became the Nightmare King, these monsters were born. These horny undead rodents are seekers of beautiful women for the Nightmare King. Once they found a suitable maiden, they kidnap them from their dimension, and brainwash them with the dirtiest things imaginable.'''
+atk = 600
+def = 600
+ot = "CUSTOM"
+
+[card.crank-a-nightmare]
+id = 420698
+name = "Crank-a-Nightmare"
+type = "spell quick-play"
+effect = '''If a Level 7 or higher monster under your control was sent to the Graveyard this turn: Special Summon 1 "Nightmare King's Dragon" monster from your hand or Deck.'''
+ot = "CUSTOM"
+
+[card.nk-dragon-kalameet]
+id = 420699
+name = "Nightmare King's Dragon Kalameet"
+attribute = "dark"
+level = 8
+type = "monster effect spsummon"
+race = "zombie"
+set = "nightmare-king nk-dragon"
+effect = '''Cannot be Normal Summoned/Set. Must be Special Summoned with "Crank-a-Nightmare" and cannot be Special Summoned by other ways. This card can attack all monsters your opponent controls once each. During each of your End Phases, this card loses 500 ATK.'''
+atk = 3500
+def = 0
+ot = "CUSTOM"
+
+[card.nk-horny-maiden-skyla]
+id = 4206910
+name = "Nightmare King's Horny Maiden Skyla"
+attribute = "dark"
+level = 5
+pendulum-scale = 5
+pendulum-effect = '''All Zombie-Type monsters gain 200 ATK. You take no battle damage from battles involving Zombie-Type monsters you control.'''
+type = "monster normal pendulum"
+race = "zombie"
+set = "nightmare-king nk-horny-maiden"
+flavor-text = '''She was a Pokémon Gym Leader that lived in Mistralton City who loved to flying planes but now, she wants to be with the Nightmare King.'''
+atk = 2000
+def = 0
+ot = "CUSTOM"
+
+[card.nk-horny-maiden-shauna]
+id = 4206911
+name = "Nightmare King's Horny Maiden Shauna"
+attribute = "dark"
+level = 4
+pendulum-scale = 4
+pendulum-effect = '''If a Zombie-Type monster you control attacks a Defense Position monster, inflict piercing battle damage to your opponent.'''
+type = "monster normal pendulum"
+race = "zombie"
+set = "nightmare-king nk-horny-maiden"
+flavor-text = '''She was a Pokémon performer like Serena but now, she performs for the Nightmare King and his army.'''
+atk = 1800
+def = 0
+ot = "CUSTOM"
+
+[card.nk-horny-maiden-dawn]
+id = 4206912
+name = "Nightmare King's Horny Maiden Dawn"
+attribute = "dark"
+level = 4
+pendulum-scale = 4
+pendulum-effect = '''If a Zombie-Type monster you control attacks a Defense Position monster, inflict piercing battle damage to your opponent.'''
+type = "monster normal pendulum"
+race = "zombie"
+set = "nightmare-king nk-horny-maiden"
+flavor-text = '''She was a Pokémon coordinator who wants to be like her mother but now, she wants to be as sexy as Serena for the Nightmare King.'''
+atk = 1800
+def = 0
+ot = "CUSTOM"
