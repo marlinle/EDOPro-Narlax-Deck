@@ -9,3 +9,7 @@ name = '''Nightmare King's Horny Maiden'''
 [set.nk-dragon]
 code = 0x420b
 name = '''Nightmare King's Dragon'''
+
+[set.nightmare-giant]
+code = 0x420c
+name = '''Nightmare Giant'''
