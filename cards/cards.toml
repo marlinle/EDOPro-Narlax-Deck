@@ -54,7 +54,7 @@ ot = "CUSTOM"
 
 [card.nk-horny-maiden-serena]
 id = 420695
-name = "Nightmare King's Horny Maiden Serena"
+name = "Horny Maiden Serena"
 attribute = "dark"
 level = 5
 pendulum-scale = 5
@@ -69,7 +69,7 @@ ot = "CUSTOM"
 
 [card.nk-horny-maiden-lillie]
 id = 420696
-name = "Nightmare King's Horny Maiden Lillie"
+name = "Horny Maiden Lillie"
 attribute = "dark"
 level = 4
 pendulum-scale = 4
@@ -119,7 +119,7 @@ ot = "CUSTOM"
 
 [card.nk-horny-maiden-skyla]
 id = 4206910
-name = "Nightmare King's Horny Maiden Skyla"
+name = "Horny Maiden Skyla"
 attribute = "dark"
 level = 5
 pendulum-scale = 5
@@ -134,7 +134,7 @@ ot = "CUSTOM"
 
 [card.nk-horny-maiden-shauna]
 id = 4206911
-name = "Nightmare King's Horny Maiden Shauna"
+name = "Horny Maiden Shauna"
 attribute = "dark"
 level = 4
 pendulum-scale = 4
@@ -149,7 +149,7 @@ ot = "CUSTOM"
 
 [card.nk-horny-maiden-dawn]
 id = 4206912
-name = "Nightmare King's Horny Maiden Dawn"
+name = "Horny Maiden Dawn"
 attribute = "dark"
 level = 4
 pendulum-scale = 4
@@ -190,7 +190,7 @@ ot = "CUSTOM"
 
 [card.nk-horny-maiden-iris]
 id = 4206915
-name = "Nightmare King's Horny Maiden Iris"
+name = "Horny Maiden Iris"
 attribute = "dark"
 level = 2
 pendulum-scale = 2
@@ -205,7 +205,7 @@ ot = "CUSTOM"
 
 [card.nk-horny-maiden-lana]
 id = 4206916
-name = "Nightmare King's Horny Maiden Lana"
+name = "Horny Maiden Lana"
 attribute = "dark"
 level = 4
 pendulum-scale = 4
@@ -220,7 +220,7 @@ ot = "CUSTOM"
 
 [card.nk-horny-maiden-may]
 id = 4206917
-name = "Nightmare King's Horny Maiden May"
+name = "Horny Maiden May"
 attribute = "dark"
 level = 3
 pendulum-scale = 3
@@ -235,7 +235,7 @@ ot = "CUSTOM"
 
 [card.nk-horny-maiden-misty]
 id = 4206918
-name = "Nightmare King's Horny Maiden Misty"
+name = "Horny Maiden Misty"
 attribute = "dark"
 level = 5
 pendulum-scale = 5
@@ -285,7 +285,7 @@ rank = 4
 type = "monster xyz effect"
 race = "zombie"
 set = "nightmare-king nightmare-giant"
-effect = '''2 level 4 "Nightmare King's Horny Maiden" monsters
+effect = '''2 level 4 "Horny Maiden" monsters
 Once per turn: You can detach 1 Xyz Material from this card to target 1 face-up card your opponent controls; destroy it.'''
 atk = 1800
 def = 2200
@@ -299,7 +299,7 @@ level = 6
 type = "monster synchro effect"
 race = "zombie"
 set = "nightmare-king nightmare-giant"
-effect = '''1 "Nightmare King" Tuner + 1 or more non-Tuner "Nightmare King's Horny Maiden" monsters
+effect = '''1 "Nightmare King" Tuner + 1 or more non-Tuner "Horny Maiden" monsters
 Once per turn, during your opponent's Standby Phase: You can inflict 300 damage to your opponent for each card your opponent controls. Each time your opponent Sets a Spell or Trap Card(s): Inflict 300 damage to your opponent.'''
 atk = 2200
 def = 1000
@@ -328,7 +328,7 @@ level = 6
 type = "monster fusion effect"
 race = "zombie"
 set = "nightmare-king nightmare-giant"
-effect = '''2 "Nightmare King's Horny Maiden" monsters
+effect = '''2 "Horny Maiden" monsters
 This card can attack your opponent directly if the only face-up monsters they control are EARTH, WATER, or FIRE.'''
 atk = 2200
 def = 1000
@@ -342,7 +342,7 @@ rank = 5
 type = "monster xyz effect"
 race = "zombie"
 set = "nightmare-king nightmare-giant"
-effect = '''2 level 5 "Nightmare King's Horny Maiden" monsters
+effect = '''2 level 5 "Horny Maiden" monsters
 Once per turn, during either player's turn, you can activate 1 of these effects.
 ●When a monster effect is activated on the field OR when a Normal Spell/Trap Card is activated: You can detach 1 Xyz Material from this card; the activated effect becomes "Destroy 1 Spell/Trap Card your opponent controls".
 ●You can detach 1 Xyz Material from this card; each player with a hand shuffles their entire hand into the Deck, then draws the same number of cards they shuffled into the Deck.'''
@@ -358,7 +358,7 @@ level = 6
 type = "monster fusion effect"
 race = "zombie"
 set = "nightmare-king nightmare-giant"
-effect = '''2 "Nightmare King's Horny Maiden" monsters
+effect = '''2 "Horny Maiden" monsters
 This card can make a second attack during each Battle Phase. This card cannot attack your opponent directly. After damage calculation, if this card attacked an opponent's monster: Negate the effects of that monster (including in the Graveyard). If this card destroys an opponent's monster by battle: Inflict 1000 damage to your opponent.'''
 atk = 2200
 def = 2000
