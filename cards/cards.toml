@@ -101,6 +101,7 @@ ot = "CUSTOM"
 id = 420698
 name = "Crank-a-Nightmare"
 type = "spell quick-play"
+set = "nightmare-king"
 effect = '''If a Level 7 or higher monster under your control was sent to the Graveyard this turn: Special Summon 1 "Nightmare King's Dragon" monster from your hand or Deck.'''
 ot = "CUSTOM"
 
@@ -377,4 +378,12 @@ set = "nightmare-king nk-horny-maiden"
 flavor-text = '''She was a proud shinobi who wanted to be with Sasuke Uchiha forever but now, she wants to be with the Nightmare King instead.'''
 atk = 2000
 def = 0
+ot = "CUSTOM"
+
+[card.gates-to-the-nightmare-world]
+id = 4206928
+name = "The Gates to the Nightmare World"
+type = "spell field"
+set = "nightmare-king"
+effect = '''All Zombie monsters you control gain 500 ATK/DEF. Once per turn, during your Main Phase: You can take up to 5 "Nightmare King" cards from your Deck and place them on top of your Deck in any order.'''
 ot = "CUSTOM"
