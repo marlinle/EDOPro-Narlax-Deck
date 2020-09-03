@@ -387,3 +387,11 @@ type = "spell field"
 set = "nightmare-king"
 effect = '''All Zombie monsters you control gain 500 ATK/DEF. Once per turn, during your Main Phase: You can take up to 5 "Nightmare King" cards from your Deck and place them on top of your Deck in any order.'''
 ot = "CUSTOM"
+
+[card.curse-of-nightmares]
+id = 4206929
+name = "Curse of Nightmares"
+type = "trap continuous"
+set = "nightmare-king"
+effect = '''Each time a Zombie monster(s) is Special Summoned, while this card is already face-up in your Spell and Trap Zone: Inflict 400 damage to your opponent.'''
+ot = "CUSTOM"
