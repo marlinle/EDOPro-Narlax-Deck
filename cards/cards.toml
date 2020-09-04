@@ -102,7 +102,7 @@ id = 420698
 name = "Crank-a-Nightmare"
 type = "spell quick-play"
 set = "nightmare-king"
-effect = '''If a Level 7 or higher monster under your control was sent to the Graveyard this turn: Special Summon 1 "Nightmare King's Dragon" monster from your hand or Deck.'''
+effect = '''(This card is always treated as a "Nightmare World" card.) If a Level 7 or higher monster under your control was sent to the Graveyard this turn: Special Summon 1 "Nightmare King's Dragon" monster from your hand or Deck.'''
 ot = "CUSTOM"
 
 [card.nk-dragon-kalameet]
@@ -300,7 +300,7 @@ level = 6
 type = "monster synchro effect"
 race = "zombie"
 set = "nightmare-king nightmare-giant"
-effect = '''1 "Nightmare King" Tuner + 1 or more non-Tuner "Horny Maiden" monsters
+effect = '''1 "Nightmare World" Tuner + 1 or more non-Tuner "Horny Maiden" monsters
 Once per turn, during your opponent's Standby Phase: You can inflict 300 damage to your opponent for each card your opponent controls. Each time your opponent Sets a Spell or Trap Card(s): Inflict 300 damage to your opponent.'''
 atk = 2200
 def = 1000
@@ -385,7 +385,7 @@ id = 4206928
 name = "The Gates to the Nightmare World"
 type = "spell field"
 set = "nightmare-king"
-effect = '''All Zombie monsters you control gain 500 ATK/DEF. Once per turn, during your Main Phase: You can take up to 5 "Nightmare King" cards from your Deck and place them on top of your Deck in any order.'''
+effect = '''(This card is always treated as a "Nightmare World" card.) All Zombie monsters you control gain 500 ATK/DEF. Once per turn, during your Main Phase: You can take up to 5 "Nightmare King" cards from your Deck and place them on top of your Deck in any order.'''
 ot = "CUSTOM"
 
 [card.curse-of-nightmares]
@@ -393,5 +393,5 @@ id = 4206929
 name = "Curse of Nightmares"
 type = "trap continuous"
 set = "nightmare-king"
-effect = '''Each time a Zombie monster(s) is Special Summoned, while this card is already face-up in your Spell and Trap Zone: Inflict 400 damage to your opponent.'''
+effect = '''(This card is always treated as a "Nightmare World" card.) Each time a Zombie monster(s) is Special Summoned, while this card is already face-up in your Spell and Trap Zone: Inflict 400 damage to your opponent.'''
 ot = "CUSTOM"
