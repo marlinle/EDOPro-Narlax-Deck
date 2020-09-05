@@ -395,3 +395,33 @@ type = "trap continuous"
 set = "nightmare-king"
 effect = '''(This card is always treated as a "Nightmare World" card.) Each time a Zombie monster(s) is Special Summoned, while this card is already face-up in your Spell and Trap Zone: Inflict 400 damage to your opponent.'''
 ot = "CUSTOM"
+
+[card.coronavirus-alpha]
+id = 4206930
+name = "Coronavirus Alpha"
+attribute = "dark"
+level = 1
+pendulum-scale = 0
+pendulum-effect = '''While this card is on the field: The turn player can Fusion Summon 1 Fusion Monster from their Extra Deck, by banishing Fusion Materials listed on it from their hand or field.'''
+type = "monster normal pendulum"
+race = "fiend"
+set = "nightmare-king"
+flavor-text = '''The deadly coronavirus originated in the Nightmare World within the Bone Bone monsters. It is believed that these viruses are antibodies for their bones.'''
+atk = 0
+def = 0
+ot = "CUSTOM"
+
+[card.coronavirus-omega]
+id = 4206931
+name = "Coronavirus Omega"
+attribute = "dark"
+level = 1
+pendulum-scale = 13
+pendulum-effect = '''While this card is on the field: The turn player can Fusion Summon 1 Fusion Monster from their Extra Deck, by banishing Fusion Materials listed on it from their hand or field.'''
+type = "monster normal pendulum"
+race = "fiend"
+set = "nightmare-king"
+flavor-text = '''The deadly coronavirus originated in the Nightmare World within the Bone Bone monsters. It is believed that these viruses are antibodies for their bones.'''
+atk = 0
+def = 0
+ot = "CUSTOM"
