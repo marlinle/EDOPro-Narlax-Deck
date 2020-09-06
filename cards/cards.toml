@@ -385,7 +385,7 @@ id = 4206928
 name = "The Gates to the Nightmare World"
 type = "spell field"
 set = "nightmare-king"
-effect = '''(This card is always treated as a "Nightmare World" card.) All Zombie monsters you control gain 500 ATK/DEF. Once per turn, during your Main Phase: You can take up to 5 "Nightmare King" cards from your Deck and place them on top of your Deck in any order.'''
+effect = '''(This card is always treated as a "Nightmare World" card.) All Zombie monsters you control gain 500 ATK/DEF. Once per turn, during your Main Phase: You can take up to 5 "Nightmare World" cards from your Deck and place them on top of your Deck in any order.'''
 ot = "CUSTOM"
 
 [card.curse-of-nightmares]
