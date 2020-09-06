@@ -425,3 +425,24 @@ flavor-text = '''The deadly coronavirus originated in the Nightmare World within
 atk = 0
 def = 0
 ot = "CUSTOM"
+
+[card.origami-castle]
+id = 4206932
+name = "King Olly's Origami Castle"
+type = "spell field"
+set = "nightmare-king"
+effect = '''Once per turn, if a card(s) is added from the Main Deck to your opponent's hand (except during the Damage Step): You can Special Summon 1 "Nightmare World" monster from your Deck in Defense Position. If you Special Summon a "Nightmare World" monster(s) during your opponent's turn (except during the Damage Step): You can Special Summon as many "Origami Tokens" (Fiend/DARK/Level 4/ATK 1800/DEF 1200) as possible in Attack Position, but destroy them during the End Phase (even if this card leaves the field). You can only use this effect of "King Olly's Origami Castle" once per turn.'''
+ot = "CUSTOM"
+
+[card.origami-token]
+id = 4206933
+name = "Origami Token"
+attribute = "dark"
+level = 4
+type = "monster normal token"
+race = "fiend"
+set = "nightmare-king"
+flavor-text = '''This card can be used as a "Origami Token".'''
+atk = 1800
+def = 1200
+ot = "CUSTOM"
