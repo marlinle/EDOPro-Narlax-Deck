@@ -1,4 +1,5 @@
 -- King Olly's Origami Castle
+-- Coded by FunnyBones777
 local s,id=GetID()
 function s.initial_effect(c)
 	--Activate
