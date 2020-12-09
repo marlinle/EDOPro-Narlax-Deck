@@ -197,35 +197,6 @@ atk = 2000
 def = 0
 ot = "CUSTOM"
 
-[card.supreme-necromancer]
-id = 4206919
-name = "Supreme Necromancer"
-attribute = "dark"
-level = 7
-type = "monster effect"
-race = "zombie"
-set = "nightmare-king"
-effect = '''If a card(s) you control is destroyed while this card is in your hand: You can target the destroyed card(s); Special Summon this card. If Summoned this way: You can place the card(s) targeted by this effect to the same Zone it was on when it was destroyed. You can Tribute this card; banish 1 "Nightmare Giant" Fusion monster, 1 "Nightmare Giant" Synchro monster, 1 "Nightmare Giant" Xyz monster, and 1 "Nightmare Giant" Pendulum monster from your Deck, Extra Deck, field, and/or Graveyard, and if you do, Special Summon 1 "Supreme Nightmare King Rexne" from your Extra Deck.'''
-atk = 2400
-def = 2200
-ot = "CUSTOM"
-
-[card.supreme-nightmare-king-rexne]
-id = 4206920
-name = "Supreme Nightmare King Rexne"
-attribute = "dark"
-level = 12
-rank = 12
-pendulum-scale = 1
-pendulum-effect = '''You can Tribute 1 "Nightmare Giant" monster; Special Summon this card from your Pendulum Zone, ignoring its Summoning conditions.'''
-type = "monster effect fusion synchro xyz pendulum spsummon"
-race = "zombie"
-set = "nightmare-king"
-effect = '''(This card is also always treated as a Fusion, Synchro, and Xyz Monster, and has a Rank equal to its Level.) Must be Special Summoned with "Supreme Necromancer", and cannot be Special Summoned by other ways. If this card is Special Summoned: You can destroy as many monsters your opponent controls as possible, then each player that had a monster(s) destroyed by this effect takes damage equal to the total ATK the destroyed monsters had on the field. This card cannot attack the turn this effect is activated. While there are Fusion, Synchro, and Xyz Monsters banished and/or in any Graveyard(s), this card cannot be destroyed, also unaffected by card effects that would make it leave the field. All monsters you control are unaffected by the effects of your opponent's Fusion, Synchro, and Xyz Monsters. If this card destroys an opponent's monster by battle: You can Special Summon 2 "Nightmare Giant" monsters from your Extra Deck in Defense Position. If your opponent adds a card(s) to their hand (except during the Draw Phase): You can destroy that card(s).'''
-atk = 5000
-def = 5000
-ot = "CUSTOM"
-
 [card.nk-horny-maiden-sakura-haruno]
 id = 4206927
 name = "Horny Maiden Sakura Haruno"
