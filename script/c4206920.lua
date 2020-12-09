@@ -1,5 +1,5 @@
 -- Supreme Nightmare King Rexne
--- Coded by monyarm
+-- Coded by monyarm and FunnyBones777
 local s,id=GetID()
 function s.initial_effect(c)
 	c:EnableReviveLimit()
@@ -71,7 +71,7 @@ function s.initial_effect(c)
 	e7:SetTargetRange(LOCATION_MZONE,0)
 	e7:SetValue(s.efilter)
 	c:RegisterEffect(e7)
-	--special summon SK dragon
+	--special summon nightmare giant
 	local e8=Effect.CreateEffect(c)
 	e8:SetDescription(aux.Stringid(13331639,2))
 	e8:SetCategory(CATEGORY_SPECIAL_SUMMON)
@@ -95,7 +95,7 @@ function s.initial_effect(c)
 	e9:SetOperation(s.desop)
 	c:RegisterEffect(e9)
 end
-s.listed_series={0x420c,0x420b}
+s.listed_series={0x420c}
 s.listed_names={4206919}
 function s.fscon(e,g,gc,chkfnf)
 	if g==nil then return true end
@@ -106,7 +106,7 @@ function s.splimit(e,se,sp,st)
 	return se:GetHandler():IsCode(4206919) or code==4206919
 end
 function s.cfilter(c,ft,tp)
-	return c:IsSetCard(0x420b) and (ft>0 or (c:IsControler(tp) and c:GetSequence()<5)) and (c:IsControler(tp) or c:IsFaceup())
+	return c:IsSetCard(0x420c) and (ft>0 or (c:IsControler(tp) and c:GetSequence()<5)) and (c:IsControler(tp) or c:IsFaceup())
 end
 function s.spcost(e,tp,eg,ep,ev,re,r,rp,chk)
 	local ft=Duel.GetLocationCount(tp,LOCATION_MZONE)
