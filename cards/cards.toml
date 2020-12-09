@@ -93,6 +93,27 @@ atk = 600
 def = 600
 ot = "CUSTOM"
 
+[card.colorless-deep-fog]
+id = 420698
+name = "Colorless Deep Fog"
+type = "trap continuous"
+set = "nightmare-king"
+effect = '''(This card is always treated as a "Nightmare World" card.) Once per turn: You can Special Summon 1 "Primeval Demon Token" (Fiend-Type/DARK/Level 1/ATK 500/DEF 500). During each player's End Phase, Tribute 1 Token or "Nightmare World" monster, or send this card to the Graveyard.'''
+ot = "CUSTOM"
+
+[card.primeval-demon-token]
+id = 420699
+name = "Primeval Demon Token"
+attribute = "dark"
+level = 1
+type = "monster normal token"
+race = "fiend"
+set = "nightmare-king"
+flavor-text = '''This card can be used as a "Primeval Demon Token".'''
+atk = 500
+def = 500
+ot = "CUSTOM"
+
 [card.nk-horny-maiden-skyla]
 id = 4206910
 name = "Horny Maiden Skyla"
