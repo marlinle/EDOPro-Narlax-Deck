@@ -226,6 +226,20 @@ atk = 2000
 def = 0
 ot = "CUSTOM"
 
+[card.nk-soulsucker-serena]
+id = 4206919
+name = "Soulsucker Serena"
+attribute = "dark"
+level = 6
+type = "monster fusion effect"
+race = "zombie"
+set = "nightmare-king nk-soulsucker"
+flavor-text = '''Horny Maiden Serena + Primeval Demon Token
+Must be Fusion Summoned with the above Fusion Materials or with "Will of the Old One". If this card is Special Summoned: Target 1 Zombie monster in your GY; equip that target to this card. Gains ATK equal to the original ATK of the monster equipped to it by this effect. Gains 100 ATK for each monster in your GY. If this card would be destroyed by battle, destroy that equipped monster instead.'''
+atk = 2500
+def = 500
+ot = "CUSTOM"
+
 [card.nk-horny-maiden-sakura-haruno]
 id = 4206927
 name = "Horny Maiden Sakura Haruno"
