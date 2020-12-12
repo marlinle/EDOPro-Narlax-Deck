@@ -93,23 +93,15 @@ atk = 600
 def = 600
 ot = "CUSTOM"
 
-[card.colorless-deep-fog]
+[card.primeval-demon]
 id = 420698
-name = "Colorless Deep Fog"
-type = "trap continuous"
-set = "nightmare-king"
-effect = '''(This card is always treated as a "Nightmare World" card.) Once per turn: You can Special Summon 1 "Primeval Demon Token" (Fiend-Type/DARK/Level 1/ATK 500/DEF 500). During each player's End Phase, Tribute 1 Token or "Nightmare World" monster, or send this card to the Graveyard.'''
-ot = "CUSTOM"
-
-[card.primeval-demon-token]
-id = 420699
-name = "Primeval Demon Token"
+name = "Primeval Demon"
 attribute = "dark"
 level = 1
-type = "monster normal token"
+type = "monster normal"
 race = "fiend"
 set = "nightmare-king"
-flavor-text = '''This card can be used as a "Primeval Demon Token".'''
+flavor-text = '''This colorless demon was born from the deep fog of the Old One. The Old One has always been a soul-thristy demon and continues to be so. It's demons came to the Nightmare World to seek alliance with the Nightmare King.'''
 atk = 500
 def = 500
 ot = "CUSTOM"
@@ -234,8 +226,8 @@ level = 6
 type = "monster fusion effect"
 race = "zombie"
 set = "nightmare-king nk-soulsucker"
-flavor-text = '''Horny Maiden Serena + Primeval Demon Token
-Must be Fusion Summoned with the above Fusion Materials or with "Will of the Old One". If this card is Special Summoned: Target 1 Zombie monster in your GY; equip that target to this card. Gains ATK equal to the original ATK of the monster equipped to it by this effect. Gains 100 ATK for each monster in your GY. If this card would be destroyed by battle, destroy that equipped monster instead.'''
+flavor-text = '''Horny Maiden Serena + Primeval Demon
+If this card is Special Summoned: Target 1 Zombie monster in your GY; equip that target to this card. Gains ATK equal to the original ATK of the monster equipped to it by this effect. Gains 100 ATK for each monster in your GY. If this card would be destroyed by battle, destroy that equipped monster instead.'''
 atk = 2500
 def = 500
 ot = "CUSTOM"

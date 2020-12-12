@@ -5,13 +5,6 @@ function s.initial_effect(c)
   --fusion material
   c:EnableReviveLimit()
   Fusion.AddProcMix(c,false,false,420695,420699)
-  --spsummon condition
-  local e1=Effect.CreateEffect(c)
-  e1:SetType(EFFECT_TYPE_SINGLE)
-  e1:SetProperty(EFFECT_FLAG_CANNOT_DISABLE+EFFECT_FLAG_UNCOPYABLE)
-  e1:SetCode(EFFECT_SPSUMMON_CONDITION)
-  e1:SetValue(s.splimit)
-  c:RegisterEffect(e1)
   --equip
   local e1=Effect.CreateEffect(c)
   e1:SetDescription(aux.Stringid(id,0))
@@ -31,10 +24,6 @@ function s.initial_effect(c)
   e2:SetRange(LOCATION_MZONE)
   e2:SetValue(s.atkval)
   c:RegisterEffect(e2)
-end
-s.listed_names={4206913}
-function s.splimit(e,se,sp,st)
-  return (st&SUMMON_TYPE_FUSION)==SUMMON_TYPE_FUSION or se:GetHandler():IsCode(4206913)
 end
 function s.eqval(ec,c,tp)
   return ec:IsControler(tp) and ec:IsRace(RACE_ZOMBIE)
@@ -73,7 +62,7 @@ function s.eqop(e,tp,eg,ep,ev,re,r,rp)
   local tc=Duel.GetFirstTarget()
   if tc and tc:IsRelateToEffect(e) then
     s.equipop(c,e,tp,tc)
-	end
+  end
 end
 function s.repval(e,re,r,rp)
   return (r&REASON_BATTLE)~=0
