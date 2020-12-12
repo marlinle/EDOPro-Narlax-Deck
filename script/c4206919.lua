@@ -4,7 +4,7 @@ local s, id = GetID()
 function s.initial_effect(c)
   --fusion material
   c:EnableReviveLimit()
-  Fusion.AddProcMix(c,true,true,420695,420699)
+  Fusion.AddProcMix(c,true,true,420695,420698)
   --equip
   local e1=Effect.CreateEffect(c)
   e1:SetDescription(aux.Stringid(id,0))
