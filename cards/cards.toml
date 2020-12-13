@@ -106,6 +106,20 @@ atk = 500
 def = 500
 ot = "CUSTOM"
 
+[card.bp-mirror-portal]
+id = 420699
+name = "Black Phantom Mirror Portal"
+attribute = "dark"
+link-rating = 1
+link-arrows = "bottom"
+type = "monster link effect"
+race = "fiend"
+set = "nightmare-king nk-black-phantom"
+effect = '''1 Zombie-Type monster
+Once per turn: You can Special Summon 1 Level 4 or lower Zombie-Type monster from your hand to your zone this card points to.'''
+atk = 1000
+ot = "CUSTOM"
+
 [card.nk-horny-maiden-skyla]
 id = 4206910
 name = "Horny Maiden Skyla"
