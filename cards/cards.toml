@@ -246,6 +246,20 @@ atk = 2500
 def = 500
 ot = "CUSTOM"
 
+[card.bp-cursed-lantern]
+id = 4206920
+name = "Black Phantom Cursed Lantern"
+attribute = "dark"
+link-rating = 2
+link-arrows = "top bottom"
+type = "monster link effect"
+race = "fiend"
+set = "nightmare-king nk-black-phantom"
+effect = '''2 monsters including an "Black Phantom" monster
+During your opponent's Main Phase (Quick Effect): You can target 1 face-up Special Summoned monster your opponent controls; immediately after this effect resolves, Link Summon 1 DARK Link Monster, except "Black Phantom Cursed Lantern", by using only that opponent's monster and this card you control as material. If this card on the field is destroyed by battle or card effect: You can target 1 Zombie monster in your GY, except "Black Phantom Cursed Lantern"; add it to your hand. You can only use each effect of "Black Phantom Cursed Lantern" once per turn.'''
+atk = 1600
+ot = "CUSTOM"
+
 [card.nk-horny-maiden-sakura-haruno]
 id = 4206927
 name = "Horny Maiden Sakura Haruno"
