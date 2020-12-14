@@ -260,6 +260,20 @@ During your opponent's Main Phase (Quick Effect): You can target 1 face-up Speci
 atk = 1600
 ot = "CUSTOM"
 
+[card.bp-hairy-goblin]
+id = 4206921
+name = "Black Phantom Hairy Goblin"
+attribute = "dark"
+link-rating = 2
+link-arrows = "bottom-left bottom-right"
+type = "monster link effect"
+race = "fiend"
+set = "nightmare-king nk-black-phantom"
+effect = '''2 Zombie-Type monsters
+Once per turn: You can target 1 other face-up monster on the field; it gains 500 ATK/DEF. Your opponent cannot activate cards or effects in response to this effect's activation. If this Link Summoned card is destroyed by battle or card effect and sent to the GY: You can target 1 other Zombie monster in your GY; Special Summon it. You can only use this effect of "Black Phantom Hairy Goblin" once per turn.'''
+atk = 1600
+ot = "CUSTOM"
+
 [card.nk-horny-maiden-sakura-haruno]
 id = 4206927
 name = "Horny Maiden Sakura Haruno"
