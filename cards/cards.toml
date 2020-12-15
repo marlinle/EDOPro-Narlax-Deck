@@ -284,10 +284,7 @@ type = "monster link effect"
 race = "zombie"
 set = "nightmare-king nk-black-phantom"
 effect = '''2 Zombie-Type monsters
-Once per turn, during your Standby Phase, pay 500 LP or destroy this card. Once per Chain, if you pay LP (except during the Damage Step): You can send 1 Zombie monster from your Deck to the GY with ATK or DEF equal to the amount paid. Once per Chain, if a Zombie monster(s) is sent to your GY (except during the Damage Step): You can roll a six-sided die, then apply this effect on 1 of those monsters based on the result.
-●1: Add it to your hand.
-●2, 3, 4, 5: Shuffle into the Deck.
-●6: Special Summon it.'''
+When this card is destroyed and sent to the Graveyard as a result of battle, roll a six-sided die. You can Special Summon 1 Zombie-Type monster from your Graveyard whose Level is equal to the number rolled. (If the result is 6, you can Special Summon a Level 6 or higher monster.)'''
 atk = 2200
 ot = "CUSTOM"
 
