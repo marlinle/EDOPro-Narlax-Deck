@@ -7,8 +7,8 @@ type = "monster normal"
 race = "zombie"
 set = "nightmare-king"
 flavor-text = '''Rexne was once human but died to the heretics of the Wet Dream Church. Now king of the beastly, Nightmare World, he invades other worlds with his army to conquer them and feel more pleasure.'''
-atk = 3000
-def = 3000
+atk = 3200
+def = 2500
 ot = "CUSTOM"
 
 [card.pleasure-painter]
@@ -61,7 +61,7 @@ type = "monster normal"
 race = "zombie"
 set = "nightmare-king nk-horny-maiden"
 flavor-text = '''She was a Pokémon performer who wanted to make people smile but now, she performs for the Nightmare King and his army.'''
-atk = 2000
+atk = 2200
 def = 0
 ot = "CUSTOM"
 
@@ -129,7 +129,7 @@ type = "monster normal"
 race = "zombie"
 set = "nightmare-king nk-horny-maiden"
 flavor-text = '''She was a Pokémon Gym Leader that lived in Mistralton City who loved to flying planes but now, she wants to be with the Nightmare King.'''
-atk = 2000
+atk = 2200
 def = 0
 ot = "CUSTOM"
 
@@ -228,7 +228,7 @@ type = "monster normal"
 race = "zombie"
 set = "nightmare-king nk-horny-maiden"
 flavor-text = '''She was a Water-type Pokémon trainer who wanted to be the best Gym Leader but now, she wants to be sexiest maiden of the Nightmare King's army.'''
-atk = 2000
+atk = 2200
 def = 0
 ot = "CUSTOM"
 
@@ -242,7 +242,7 @@ race = "zombie"
 set = "nightmare-king nk-soulsucker"
 flavor-text = '''Horny Maiden Serena + Primeval Demon
 If this card is Special Summoned: Target 1 Zombie monster in your GY; equip that target to this card. Gains ATK equal to the original ATK of the monster equipped to it by this effect. Gains 100 ATK for each monster in your GY. If this card would be destroyed by battle, destroy that equipped monster instead.'''
-atk = 2500
+atk = 2700
 def = 500
 ot = "CUSTOM"
 
@@ -288,6 +288,19 @@ When this card is destroyed and sent to the Graveyard as a result of battle, rol
 atk = 2200
 ot = "CUSTOM"
 
+[card.nk-horny-maiden-ryuko-matoi]
+id = 4206923
+name = "Horny Maiden Ryūko Matoi"
+attribute = "dark"
+level = 5
+type = "monster normal"
+race = "zombie"
+set = "nightmare-king nk-horny-maiden"
+flavor-text = '''After Ryūko rend her world of every last piece of Life Fiber, she went to be with the Nightmare King to be her Pogchamp.'''
+atk = 2200
+def = 0
+ot = "CUSTOM"
+
 [card.nk-horny-maiden-sakura-haruno]
 id = 4206927
 name = "Horny Maiden Sakura Haruno"
@@ -297,7 +310,7 @@ type = "monster normal"
 race = "zombie"
 set = "nightmare-king nk-horny-maiden"
 flavor-text = '''She was a proud shinobi who wanted to be with Sasuke Uchiha forever but now, she wants to be with the Nightmare King instead.'''
-atk = 2000
+atk = 2200
 def = 0
 ot = "CUSTOM"
 
