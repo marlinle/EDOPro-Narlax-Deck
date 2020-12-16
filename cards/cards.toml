@@ -93,19 +93,6 @@ atk = 600
 def = 600
 ot = "CUSTOM"
 
-[card.primeval-demon]
-id = 420698
-name = "Primeval Demon"
-attribute = "dark"
-level = 1
-type = "monster normal"
-race = "fiend"
-set = "nightmare-king"
-flavor-text = '''This colorless demon was born from the deep fog of the Old One. The Old One has always been a soul-thristy demon and continues to be so. It's demons came to the Nightmare World to seek alliance with the Nightmare King.'''
-atk = 500
-def = 500
-ot = "CUSTOM"
-
 [card.bp-mirror-portal]
 id = 420699
 name = "Black Phantom Mirror Portal"
@@ -157,14 +144,6 @@ set = "nightmare-king nk-horny-maiden"
 flavor-text = '''She was a Pokémon coordinator who wanted to be like her mother but now, she wants to be as sexy as Serena for the Nightmare King.'''
 atk = 1800
 def = 0
-ot = "CUSTOM"
-
-[card.will-of-the-old-one]
-id = 4206913
-name = "Will of the Old One"
-type = "spell"
-set = "nightmare-king"
-effect = '''(This card is always treated as a "Nightmare World" card.) Target 1 "Horny Maiden" monster you control; Fusion Summon 1 Fusion Monster from your Extra Deck that lists that monster on the field as Fusion Material, using it as the Fusion Material. You can only activate 1 "Will of the Old One" per turn.'''
 ot = "CUSTOM"
 
 [card.handaconda]
@@ -230,20 +209,6 @@ set = "nightmare-king nk-horny-maiden"
 flavor-text = '''She was a Water-type Pokémon trainer who wanted to be the best Gym Leader but now, she wants to be sexiest maiden of the Nightmare King's army.'''
 atk = 2200
 def = 0
-ot = "CUSTOM"
-
-[card.nk-soulsucker-serena]
-id = 4206919
-name = "Soulsucker Serena"
-attribute = "dark"
-level = 6
-type = "monster fusion effect"
-race = "zombie"
-set = "nightmare-king nk-soulsucker"
-flavor-text = '''Horny Maiden Serena + Primeval Demon
-If this card is Special Summoned: Target 1 Zombie monster in your GY; equip that target to this card. Gains ATK equal to the original ATK of the monster equipped to it by this effect. Gains 100 ATK for each monster in your GY. If this card would be destroyed by battle, destroy that equipped monster instead.'''
-atk = 2700
-def = 500
 ot = "CUSTOM"
 
 [card.bp-cursed-lantern]
