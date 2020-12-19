@@ -103,7 +103,7 @@ pendulum-effect = '''Fusion, Synchro, and Xyz Monsters your opponent controls ca
 type = "monster effect fusion pendulum"
 race = "fairy"
 effect = '''4 LIGHT monsters (1 Fusion, 1 Synchro, 1 Xyz, and 1 Pendulum)
-Must be Fusion Summoned. If this card is Special Summoned: Destroy all cards your opponent controls. Cannot be destroyed by your opponent's card effects. Your opponent cannot target this card with card effects. When this card destroys an opponent's monster by battle: You can Special Summon 1 LIGHT monster from your Deck or Extra Deck. If this card in the Monster Zone is destroyed by battle or card effect: You can place this card in your Pendulum Zone.'''
+If this card is Special Summoned: Destroy all cards your opponent controls. Cannot be destroyed by your opponent's card effects. Your opponent cannot target this card with card effects. When this card destroys an opponent's monster by battle: You can Special Summon 1 LIGHT monster from your Deck or Extra Deck. If this card in the Monster Zone is destroyed by battle or card effect: You can place this card in your Pendulum Zone.'''
 atk = 5000
 def = 5000
 ot = "CUSTOM"
@@ -171,7 +171,7 @@ pendulum-effect = '''Fusion, Synchro, and Xyz Monsters your opponent controls ca
 type = "monster effect fusion pendulum"
 race = "fiend"
 effect = '''4 DARK monsters (1 Fusion, 1 Synchro, 1 Xyz, and 1 Pendulum)
-Must be Fusion Summoned. If this card is Special Summoned: Destroy all cards your opponent controls. Cannot be destroyed by your opponent's card effects. Your opponent cannot target this card with card effects. When this card destroys an opponent's monster by battle: You can Special Summon 1 DARK monster from your Deck or Extra Deck. If this card in the Monster Zone is destroyed by battle or card effect: You can place this card in your Pendulum Zone.'''
+If this card is Special Summoned: Destroy all cards your opponent controls. Cannot be destroyed by your opponent's card effects. Your opponent cannot target this card with card effects. When this card destroys an opponent's monster by battle: You can Special Summon 1 DARK monster from your Deck or Extra Deck. If this card in the Monster Zone is destroyed by battle or card effect: You can place this card in your Pendulum Zone.'''
 atk = 5000
 def = 5000
 ot = "CUSTOM"
@@ -294,6 +294,30 @@ set = "nightmare-king nk-horny-maiden"
 flavor-text = '''After Ryūko rend her world of every last piece of Life Fiber, she went to be with the Nightmare King to be her Pogchamp.'''
 atk = 2200
 def = 0
+ot = "CUSTOM"
+
+[card.master-hand]
+id = 4206924
+name = "Master Hand"
+attribute = "light"
+level = 7
+type = "monster effect"
+race = "fairy"
+effect = '''If a card(s) you control is destroyed while this card is in your hand: You can target the destroyed card(s); Special Summon this card. If Summoned this way: You can place the card(s) targeted by this effect to the same Zone it was on when it was destroyed. You can Tribute this card; banish 1 LIGHT Fusion monster, 1 LIGHT Synchro monster, 1 LIGHT Xyz monster, and 1 LIGHT Pendulum monster from your Deck, Extra Deck, field, and/or Graveyard, and if you do, Special Summon 1 "Galeem, Lord of Light" from your Extra Deck.'''
+atk = 2500
+def = 3000
+ot = "CUSTOM"
+
+[card.crazy-hand]
+id = 4206925
+name = "Crazy Hand"
+attribute = "dark"
+level = 7
+type = "monster effect"
+race = "fiend"
+effect = '''If a card(s) you control is destroyed while this card is in your hand: You can target the destroyed card(s); Special Summon this card. If Summoned this way: You can place the card(s) targeted by this effect to the same Zone it was on when it was destroyed. You can Tribute this card; banish 1 DARK Fusion monster, 1 DARK Synchro monster, 1 DARK Xyz monster, and 1 DARK Pendulum monster from your Deck, Extra Deck, field, and/or Graveyard, and if you do, Special Summon 1 "Dharkon, Lord of Darkness" from your Extra Deck.'''
+atk = 3000
+def = 2500
 ot = "CUSTOM"
 
 [card.nk-horny-maiden-sakura-haruno]
