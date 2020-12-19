@@ -93,6 +93,21 @@ atk = 600
 def = 600
 ot = "CUSTOM"
 
+[card.galeem]
+id = 420698
+name = "Galeem, Lord of Light"
+attribute = "light"
+level = 12
+pendulum-scale = 1
+pendulum-effect = '''Fusion, Synchro, and Xyz Monsters your opponent controls cannot activate their effects. Once per turn, when a card(s) is added from the Main Deck to your opponent's hand (except during the Draw Phase or the Damage Step): You can destroy that card(s).'''
+type = "monster effect fusion pendulum"
+race = "fairy"
+effect = '''4 LIGHT monsters (1 Fusion, 1 Synchro, 1 Xyz, and 1 Pendulum)
+Must be Fusion Summoned. If this card is Special Summoned: Destroy all cards your opponent controls. Cannot be destroyed by your opponent's card effects. Your opponent cannot target this card with card effects. When this card destroys an opponent's monster by battle: You can Special Summon 1 LIGHT monster from your Deck or Extra Deck. If this card in the Monster Zone is destroyed by battle or card effect: You can place this card in your Pendulum Zone.'''
+atk = 5000
+def = 5000
+ot = "CUSTOM"
+
 [card.bp-mirror-portal]
 id = 420699
 name = "Black Phantom Mirror Portal"
@@ -144,6 +159,21 @@ set = "nightmare-king nk-horny-maiden"
 flavor-text = '''She was a Pokémon coordinator who wanted to be like her mother but now, she wants to be as sexy as Serena for the Nightmare King.'''
 atk = 1800
 def = 0
+ot = "CUSTOM"
+
+[card.dharkon]
+id = 4206913
+name = "Dharkon, Lord of Darkness"
+attribute = "dark"
+level = 12
+pendulum-scale = 1
+pendulum-effect = '''Fusion, Synchro, and Xyz Monsters your opponent controls cannot activate their effects. Once per turn, when a card(s) is added from the Main Deck to your opponent's hand (except during the Draw Phase or the Damage Step): You can destroy that card(s).'''
+type = "monster effect fusion pendulum"
+race = "fiend"
+effect = '''4 DARK monsters (1 Fusion, 1 Synchro, 1 Xyz, and 1 Pendulum)
+Must be Fusion Summoned. If this card is Special Summoned: Destroy all cards your opponent controls. Cannot be destroyed by your opponent's card effects. Your opponent cannot target this card with card effects. When this card destroys an opponent's monster by battle: You can Special Summon 1 DARK monster from your Deck or Extra Deck. If this card in the Monster Zone is destroyed by battle or card effect: You can place this card in your Pendulum Zone.'''
+atk = 5000
+def = 5000
 ot = "CUSTOM"
 
 [card.handaconda]
