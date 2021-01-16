@@ -296,30 +296,6 @@ atk = 2200
 def = 0
 ot = "CUSTOM"
 
-[card.master-hand]
-id = 4206924
-name = "Master Hand"
-attribute = "light"
-level = 7
-type = "monster effect"
-race = "fairy"
-effect = '''If a card(s) you control is destroyed while this card is in your hand: You can target the destroyed card(s); Special Summon this card. If Summoned this way: You can place the card(s) targeted by this effect to the same Zone it was on when it was destroyed. You can Tribute this card; banish 1 LIGHT Fusion monster, 1 LIGHT Synchro monster, 1 LIGHT Xyz monster, and 1 LIGHT Pendulum monster from your Deck, Extra Deck, field, and/or Graveyard, and if you do, Special Summon 1 "Galeem, Lord of Light" from your Extra Deck.'''
-atk = 2500
-def = 3000
-ot = "CUSTOM"
-
-[card.crazy-hand]
-id = 4206925
-name = "Crazy Hand"
-attribute = "dark"
-level = 7
-type = "monster effect"
-race = "fiend"
-effect = '''If a card(s) you control is destroyed while this card is in your hand: You can target the destroyed card(s); Special Summon this card. If Summoned this way: You can place the card(s) targeted by this effect to the same Zone it was on when it was destroyed. You can Tribute this card; banish 1 DARK Fusion monster, 1 DARK Synchro monster, 1 DARK Xyz monster, and 1 DARK Pendulum monster from your Deck, Extra Deck, field, and/or Graveyard, and if you do, Special Summon 1 "Dharkon, Lord of Darkness" from your Extra Deck.'''
-atk = 3000
-def = 2500
-ot = "CUSTOM"
-
 [card.nk-horny-maiden-sakura-haruno]
 id = 4206927
 name = "Horny Maiden Sakura Haruno"
