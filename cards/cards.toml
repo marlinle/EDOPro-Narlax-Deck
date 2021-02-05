@@ -296,6 +296,19 @@ atk = 2200
 def = 0
 ot = "CUSTOM"
 
+[card.nk-horny-maiden-kagome-higurashi]
+id = 4206924
+name = "Horny Maiden Kagome Higurashi"
+attribute = "dark"
+level = 4
+type = "monster normal"
+race = "zombie"
+set = "nightmare-king nk-horny-maiden"
+flavor-text = '''After Kagome and her lover InuYasha finally destroyed the Shikon Jewel, she got kidnapped by a Bone Bone and became the Nightmare King's latest maiden.'''
+atk = 1800
+def = 0
+ot = "CUSTOM"
+
 [card.nk-horny-maiden-sakura-haruno]
 id = 4206927
 name = "Horny Maiden Sakura Haruno"
