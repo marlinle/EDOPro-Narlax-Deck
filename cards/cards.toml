@@ -322,6 +322,14 @@ atk = 1800
 def = 0
 ot = "CUSTOM"
 
+[card.nightmare]
+id = 4206925
+name = "NIGHTMARE"
+type = "trap continuous"
+set = "nightmare-king"
+effect = '''(This card is always treated as a "Nightmare World" card.) Special Summon this card as an Effect Monster (Fiend-Type/DARK/Level 7/ATK 3000/DEF 0). (This card is also still a Trap Card.) If Summoned this way, this card cannot be destroyed by battle.'''
+ot = "CUSTOM"
+
 [card.nk-horny-maiden-sakura-haruno]
 id = 4206927
 name = "Horny Maiden Sakura Haruno"
