@@ -241,6 +241,19 @@ atk = 2200
 def = 0
 ot = "CUSTOM"
 
+[card.nk-horny-maiden-ran-mouri]
+id = 4206919
+name = "Horny Maiden Ran Mōri"
+attribute = "dark"
+level = 4
+type = "monster normal"
+race = "zombie"
+set = "nightmare-king nk-horny-maiden"
+flavor-text = '''She was the childhood friend of Shinichi Kudo but now, she wants to be sexiest maiden of the Nightmare King's army.'''
+atk = 1800
+def = 0
+ot = "CUSTOM"
+
 [card.bp-cursed-lantern]
 id = 4206920
 name = "Black Phantom Cursed Lantern"
