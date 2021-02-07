@@ -322,12 +322,12 @@ atk = 1800
 def = 0
 ot = "CUSTOM"
 
-[card.nightmare]
+[card.nightmare-reborn]
 id = 4206925
-name = "NIGHTMARE"
+name = "Nightmare Reborn"
 type = "trap continuous"
 set = "nightmare-king"
-effect = '''(This card is always treated as a "Nightmare World" card.) Special Summon this card as an Effect Monster (Fiend-Type/DARK/Level 7/ATK 3000/DEF 0). (This card is also still a Trap Card.) If Summoned this way, this card cannot be destroyed by battle.'''
+effect = '''Once per turn, if you control no monsters: You can target 1 "Nightmare World" monster in your Graveyard; Special Summon it, and if you do, it gains 200 ATK (even if this card leaves the field). You can only control 1 "Nightmare Reborn".'''
 ot = "CUSTOM"
 
 [card.nk-horny-maiden-sakura-haruno]
