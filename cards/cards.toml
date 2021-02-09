@@ -8,7 +8,7 @@ pendulum-effect = '''If you have 3 or more Zombie-type monsters on your field or
 type = "monster effect pendulum"
 race = "zombie"
 set = "nightmare-king"
-effect = '''This card gains 300 ATK for each Zombie-type monster on your field or Graveyard. If this card attacks a Defense Position monster, inflict piercing battle damage to your opponent.'''
+effect = '''(This card is always treated as a "Nightmare World" card.) This card gains 300 ATK for each Zombie-type monster on your field or Graveyard. If this card attacks a Defense Position monster, inflict piercing battle damage to your opponent.'''
 atk = 3200
 def = 2500
 ot = "CUSTOM"
@@ -120,7 +120,7 @@ type = "monster link effect"
 race = "fiend"
 set = "nightmare-king nk-black-phantom"
 effect = '''1 Zombie-Type monster
-Once per turn: You can Special Summon 1 Level 4 or lower Zombie-Type monster from your hand to your zone this card points to.'''
+(This card is always treated as a "Nightmare World" card.) Once per turn: You can Special Summon 1 Level 4 or lower Zombie-Type monster from your hand to your zone this card points to.'''
 atk = 1000
 ot = "CUSTOM"
 
@@ -186,7 +186,7 @@ level = 4
 type = "monster normal"
 race = "zombie"
 set = "nightmare-king"
-flavor-text = '''These nightmarish hands can corrupt anything that it touches.'''
+flavor-text = '''(This card is always treated as a "Nightmare World" card.) These nightmarish hands can corrupt anything that it touches.'''
 atk = 2000
 def = 1000
 ot = "CUSTOM"
@@ -266,7 +266,7 @@ type = "monster link effect"
 race = "fiend"
 set = "nightmare-king nk-black-phantom"
 effect = '''2 monsters including an "Black Phantom" monster
-During your opponent's Main Phase (Quick Effect): You can target 1 face-up Special Summoned monster your opponent controls; immediately after this effect resolves, Link Summon 1 DARK Link Monster, except "Black Phantom Cursed Lantern", by using only that opponent's monster and this card you control as material. If this card on the field is destroyed by battle or card effect: You can target 1 Zombie monster in your GY, except "Black Phantom Cursed Lantern"; add it to your hand. You can only use each effect of "Black Phantom Cursed Lantern" once per turn.'''
+(This card is always treated as a "Nightmare World" card.) During your opponent's Main Phase (Quick Effect): You can target 1 face-up Special Summoned monster your opponent controls; immediately after this effect resolves, Link Summon 1 DARK Link Monster, except "Black Phantom Cursed Lantern", by using only that opponent's monster and this card you control as material. If this card on the field is destroyed by battle or card effect: You can target 1 Zombie monster in your GY, except "Black Phantom Cursed Lantern"; add it to your hand. You can only use each effect of "Black Phantom Cursed Lantern" once per turn.'''
 atk = 1600
 ot = "CUSTOM"
 
@@ -280,7 +280,7 @@ type = "monster link effect"
 race = "fiend"
 set = "nightmare-king nk-black-phantom"
 effect = '''2 Zombie-Type monsters
-Once per turn: You can target 1 other face-up monster on the field; it gains 500 ATK/DEF. Your opponent cannot activate cards or effects in response to this effect's activation. If this Link Summoned card is destroyed by battle or card effect and sent to the GY: You can target 1 other Zombie monster in your GY; Special Summon it. You can only use this effect of "Black Phantom Hairy Goblin" once per turn.'''
+(This card is always treated as a "Nightmare World" card.) Once per turn: You can target 1 other face-up monster on the field; it gains 500 ATK/DEF. Your opponent cannot activate cards or effects in response to this effect's activation. If this Link Summoned card is destroyed by battle or card effect and sent to the GY: You can target 1 other Zombie monster in your GY; Special Summon it. You can only use this effect of "Black Phantom Hairy Goblin" once per turn.'''
 atk = 1600
 ot = "CUSTOM"
 
@@ -294,7 +294,7 @@ type = "monster link effect"
 race = "zombie"
 set = "nightmare-king nk-black-phantom"
 effect = '''2 Zombie-Type monsters
-When this card is destroyed and sent to the Graveyard as a result of battle, roll a six-sided die. You can Special Summon 1 Zombie-Type monster from your Graveyard whose Level is equal to the number rolled. (If the result is 6, you can Special Summon a Level 6 or higher monster.)'''
+(This card is always treated as a "Nightmare World" card.) When this card is destroyed and sent to the Graveyard as a result of battle, roll a six-sided die. You can Special Summon 1 Zombie-Type monster from your Graveyard whose Level is equal to the number rolled. (If the result is 6, you can Special Summon a Level 6 or higher monster.)'''
 atk = 2200
 ot = "CUSTOM"
 
@@ -350,7 +350,7 @@ id = 4206928
 name = "The Gates to the Nightmare World"
 type = "spell field"
 set = "nightmare-king"
-effect = '''(This card is always treated as a "Nightmare World" card.) All Zombie and Fiend monsters you control gain 500 ATK/DEF. Once per turn, during your Main Phase: You can take up to 5 "Nightmare World" cards from your Deck and place them on top of your Deck in any order.'''
+effect = '''All Zombie and Fiend monsters you control gain 500 ATK/DEF. Once per turn, during your Main Phase: You can take up to 5 "Nightmare World" cards from your Deck and place them on top of your Deck in any order.'''
 ot = "CUSTOM"
 
 [card.curse-of-nightmares]
