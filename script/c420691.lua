@@ -15,16 +15,17 @@ Pendulum.AddProcedure(c)
     	e2:SetType(EFFECT_TYPE_SINGLE)
     	e2:SetCode(EFFECT_PIERCE)
     	c:RegisterEffect(e2)
-	--special summon
-    	local e3=Effect.CreateEffect(c)
-    	e3:SetDescription(aux.Stringid(id,0))
-    	e3:SetCategory(CATEGORY_SPECIAL_SUMMON)
-    	e3:SetType(EFFECT_TYPE_IGNITION)
-    	e3:SetRange(LOCATION_PZONE)
-    	e3:SetCondition(s.spcon)
-    	e3:SetTarget(s.sptg)
-    	e3:SetOperation(s.spop)
-    	c:RegisterEffect(e3)
+	--Special summon this card from pendulum zone
+	local e3=Effect.CreateEffect(c)
+	e3:SetCategory(CATEGORY_SPECIAL_SUMMON)
+	e3:SetType(EFFECT_TYPE_IGNITION)
+	e3:SetCode(EVENT_FREE_CHAIN)
+	e3:SetRange(LOCATION_PZONE)
+	e3:SetCountLimit(1,id)
+	e3:SetCondition(s.spcon)
+	e3:SetTarget(s.sptg)
+	e3:SetOperation(s.spop)
+	c:RegisterEffect(e3)
 end
 function s.atkval(e,c)
 	return Duel.GetMatchingGroupCount(s.AtkBoostFilter,tp,LOCATION_ONFIELD+LOCATION_GRAVE,0,nil)*300
@@ -38,5 +39,16 @@ end
 function s.spcon(e,c)
     if c==nil then return true end
     return Duel.GetLocationCount(c:GetControler(),LOCATION_MZONE)>0
-        and    Duel.IsExistingMatchingCard(s.filter,c:GetControler(),LOCATION_MZONE+LOCATION_GRAVE,0,3,nil)
+        and  Duel.IsExistingMatchingCard(s.filter,tp,LOCATION_MZONE+LOCATION_GRAVE,0,3,nil)
+end
+function s.sptg(e,tp,eg,ep,ev,re,r,rp,chk)
+	if chk==0 then return Duel.GetLocationCount(tp,LOCATION_MZONE)>0
+		and e:GetHandler():IsCanBeSpecialSummoned(e,0,tp,false,false) end
+	Duel.SetOperationInfo(0,CATEGORY_SPECIAL_SUMMON,e:GetHandler(),1,0,0)
+end
+	--Performing the effect of special summoning this card from scale
+function s.spop(e,tp,eg,ep,ev,re,r,rp)
+	local c=e:GetHandler()
+	if not c:IsRelateToEffect(e) then return end
+	Duel.SpecialSummon(c,0,tp,tp,false,false,POS_FACEUP)
 end
