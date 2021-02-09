@@ -33,13 +33,12 @@ end
 function s.AtkBoostFilter(c,e,tp)
     return c:IsRace(RACE_ZOMBIE) and c:IsFaceup()
 end
-function s.filter(c)
-	return c:IsFaceup() and c:IsRace(RACE_ZOMBIE)
+function s.cfilter(c)
+	return c:IsType(TYPE_MONSTER) and c:IsFaceup() and c:IsRace(RACE_ZOMBIE)
 end
-function s.spcon(e,c)
-    if c==nil then return true end
-    return Duel.GetLocationCount(c:GetControler(),LOCATION_MZONE)>0
-        and  Duel.IsExistingMatchingCard(s.filter,tp,LOCATION_MZONE+LOCATION_GRAVE,0,3,nil)
+	--Check for 3+ zombies monsters in your GY+field
+function s.spcon(e,tp,eg,ep,ev,re,r,rp)
+	return Duel.IsExistingMatchingCard(s.cfilter,tp,LOCATION_GRAVE+LOCATION_MZONE,0,3,nil)
 end
 function s.sptg(e,tp,eg,ep,ev,re,r,rp,chk)
 	if chk==0 then return Duel.GetLocationCount(tp,LOCATION_MZONE)>0
