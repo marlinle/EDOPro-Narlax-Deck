@@ -1,14 +1,15 @@
 -- Rexne the Nightmare King
+-- Coded by FunnyBones777
 local s,id=GetID()
 function s.initial_effect(c)
 Pendulum.AddProcedure(c)
 	--attack
 	local e1=Effect.CreateEffect(c)
 	e1:SetType(EFFECT_TYPE_SINGLE)
-	e1:SetCode(EFFECT_SET_ATTACK)
+	e1:SetCode(EFFECT_UPDATE_ATTACK)
 	e1:SetProperty(EFFECT_FLAG_SINGLE_RANGE)
 	e1:SetRange(LOCATION_MZONE)
-	e1:SetValue(s.atkval)
+	e1:SetValue(s.value)
 	c:RegisterEffect(e1)
 	--pierce
     	local e2=Effect.CreateEffect(c)
@@ -27,7 +28,7 @@ Pendulum.AddProcedure(c)
 	e3:SetOperation(s.spop)
 	c:RegisterEffect(e3)
 end
-function s.atkval(e,c)
+function s.value(e,c)
 	return Duel.GetMatchingGroupCount(s.AtkBoostFilter,tp,LOCATION_ONFIELD+LOCATION_GRAVE,0,nil)*300
 end
 function s.AtkBoostFilter(c,e,tp)
