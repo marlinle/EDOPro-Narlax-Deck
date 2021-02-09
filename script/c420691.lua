@@ -29,7 +29,7 @@ Pendulum.AddProcedure(c)
 	c:RegisterEffect(e3)
 end
 function s.value(e,c)
-	return Duel.GetMatchingGroupCount(s.AtkBoostFilter,tp,LOCATION_ONFIELD+LOCATION_GRAVE,0,nil)*300
+	return Duel.GetMatchingGroupCount(s.AtkBoostFilter,c:GetControler(),LOCATION_ONFIELD+LOCATION_GRAVE,0,nil)*300
 end
 function s.AtkBoostFilter(c,e,tp)
     return c:IsRace(RACE_ZOMBIE) and c:IsFaceup()
