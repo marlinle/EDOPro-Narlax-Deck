@@ -332,6 +332,20 @@ set = "nightmare-king"
 effect = '''Once per turn, if you control no monsters: You can target 1 "Nightmare World" monster in your Graveyard; Special Summon it, and if you do, it gains 200 ATK (even if this card leaves the field). You can only control 1 "Nightmare Reborn".'''
 ot = "CUSTOM"
 
+[card.nt-heartless-angel]
+id = 4206926
+name = "Nightmare Tech Heartless Angel"
+attribute = "dark"
+level = 9
+type = "monster fusion effect"
+race = "machine"
+set = "nightmare-king nk-nt"
+effect = '''3 "Horny Maiden" monsters
+(This card is always treated as a "Nightmare World" card.) If this card attacks a Defense Position monster, inflict piercing battle damage.'''
+atk = 4000
+def = 2000
+ot = "CUSTOM"
+
 [card.nk-horny-maiden-sakura-haruno]
 id = 4206927
 name = "Horny Maiden Sakura Haruno"
