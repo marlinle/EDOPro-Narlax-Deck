@@ -425,3 +425,17 @@ flavor-text = '''This card can be used as a "Origami Token".'''
 atk = 1800
 def = 1200
 ot = "CUSTOM"
+
+[card.nt-dark-chicken]
+id = 4206934
+name = "Nightmare Tech Dark Chicken"
+attribute = "dark"
+rank = 5
+type = "monster xyz effect"
+race = "machine"
+set = "nightmare-king nk-nt"
+effect = '''3 Level 5 "Horny Maiden" monsters
+(This card is always treated as a "Nightmare World" card.) Once per turn: You can detach 1 material from this card; inflict 1000 damage to your opponent.'''
+atk = 2000
+def = 2900
+ot = "CUSTOM"
