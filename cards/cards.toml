@@ -453,3 +453,17 @@ effect = '''"Bone Bone" + 1+ non-Tuner "Horny Maiden" monsters
 atk = 3000
 def = 2500
 ot = "CUSTOM"
+
+[card.nt-cereal-box-phoenix]
+id = 4206936
+name = "Nightmare Tech Cereal Box Phoenix"
+attribute = "light"
+level = 6
+type = "monster fusion effect"
+race = "machine"
+set = "nightmare-king nk-nt"
+effect = '''2 "Horny Maiden" monsters
+(This card is always treated as a "Nightmare World" card.) This card cannot be destroyed by battle.'''
+atk = 2200
+def = 1300
+ot = "CUSTOM"
