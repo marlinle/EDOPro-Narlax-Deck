@@ -3,7 +3,7 @@
 local s, id = GetID()
 function s.initial_effect(c)
 	-- synchro summon
-	Synchro.AddProcedure(c,aux.FilterSummonCode(420697),Synchro.NonTuner(Card.IsSetCard,0x420a),1,99)
+	Synchro.AddProcedure(c,aux.FilterBoolFunctionEx(Card.IsCode,420697),1,1,Synchro.NonTunerEx(Card.IsSetCard,0x420a),1,99)
 	c:EnableReviveLimit()
 	-- destroy & damage
     	local e1=Effect.CreateEffect(c)
