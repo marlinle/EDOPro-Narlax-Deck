@@ -3,9 +3,9 @@
 local s, id = GetID()
 function s.initial_effect(c)
 	-- synchro summon
-	Synchro.AddProcedure(c,aux.FilterSummonCode(420697),Synchro.NonTunerEx(Card.IsSetCard,0x420a),1,99)
+	Synchro.AddProcedure(c,aux.FilterSummonCode(420697),Synchro.NonTuner(Card.IsSetCard,0x420a),1,99)
 	c:EnableReviveLimit()
-	--destroy & damage
+	-- destroy & damage
     	local e1=Effect.CreateEffect(c)
     	e1:SetDescription(aux.Stringid(id,0))
     	e1:SetCategory(CATEGORY_DESTROY+CATEGORY_DAMAGE)
