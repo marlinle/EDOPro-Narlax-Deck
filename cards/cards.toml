@@ -439,3 +439,17 @@ effect = '''3 Level 5 "Horny Maiden" monsters
 atk = 2000
 def = 2900
 ot = "CUSTOM"
+
+[card.nt-capra-demon]
+id = 4206935
+name = "Nightmare Tech Capra Demon"
+attribute = "dark"
+level = 8
+type = "monster synchro effect"
+race = "machine"
+set = "nightmare-king nk-nt"
+effect = '''"Bone Bone" + 1+ non-Tuner "Horny Maiden" monsters
+(This card is always treated as a "Nightmare World" card.) Once per turn, you can destroy 1 face-up monster on the field and inflict damage to its controller equal to half of its ATK.'''
+atk = 3000
+def = 2500
+ot = "CUSTOM"

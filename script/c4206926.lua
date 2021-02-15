@@ -1,4 +1,5 @@
 -- Nightmare Tech Heartless Angel
+-- Coded by FunnyBones777
 local s, id = GetID()
 function s.initial_effect(c)
 	-- fusion material
