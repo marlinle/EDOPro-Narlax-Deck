@@ -253,7 +253,7 @@ race = "zombie"
 set = "nightmare-king nk-horny-maiden"
 flavor-text = '''She was the childhood friend of Shinichi Kudo but now, she wants to be sexiest maiden of the Nightmare King's army.'''
 atk = 1800
-def = 0
+def = 500
 ot = "CUSTOM"
 
 [card.bp-cursed-lantern]
@@ -308,7 +308,7 @@ race = "zombie"
 set = "nightmare-king nk-horny-maiden"
 flavor-text = '''After Ryūko rend her world of every last piece of Life Fiber, she went to be with the Nightmare King to be her Pogchamp.'''
 atk = 2200
-def = 0
+def = 500
 ot = "CUSTOM"
 
 [card.nk-horny-maiden-kagome-higurashi]
@@ -356,7 +356,7 @@ race = "zombie"
 set = "nightmare-king nk-horny-maiden"
 flavor-text = '''She was a proud shinobi who wanted to be with Sasuke Uchiha forever but now, she wants to be with the Nightmare King instead.'''
 atk = 2200
-def = 0
+def = 500
 ot = "CUSTOM"
 
 [card.gates-to-the-nightmare-world]
