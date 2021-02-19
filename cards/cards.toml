@@ -492,3 +492,29 @@ effect = '''Each time a "Nightmare World" monster(s) is Normal or Special Summon
 ●4: Add 1 "Nightmare World" monster from your Deck to your hand.
 ●8: Special Summon 1 "Nightmare Tech" monster from your Deck or Extra Deck, ignoring its Summoning conditions.'''
 ot = "CUSTOM"
+
+[card.nk-horny-maiden-asuka]
+id = 4206939
+name = "Horny Maiden Asuka Langley Soryu"
+attribute = "dark"
+level = 5
+type = "monster normal"
+race = "zombie"
+set = "nightmare-king nk-horny-maiden"
+flavor-text = '''She was a skilled Eva pilot who had a traumatic childhood but now, she became the Nightmare King's latest maiden.'''
+atk = 2200
+def = 0
+ot = "CUSTOM"
+
+[card.nk-horny-maiden-sakura-kinomoto]
+id = 4206940
+name = "Horny Maiden Sakura Kinomoto"
+attribute = "dark"
+level = 4
+type = "monster normal"
+race = "zombie"
+set = "nightmare-king nk-horny-maiden"
+flavor-text = '''She was the keeper of the powerful Clow Cards but now, she became the Nightmare King's cutest maiden.'''
+atk = 1800
+def = 1000
+ot = "CUSTOM"
