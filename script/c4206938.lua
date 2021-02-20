@@ -57,8 +57,7 @@ function s.ctfilter(c)
 	return c:IsFaceup() and c:IsControler(tp) and c:IsLocation(LOCATION_MZONE) and c:IsSetCard(0x420)
 end
 function s.accon(e,tp,eg,ep,ev,re,r,rp)
-	if not re:IsHasProperty(EFFECT_FLAG_CARD_TARGET) then return false
-end
+	if not re:IsHasProperty(EFFECT_FLAG_CARD_TARGET) then return false end
 	local g=Duel.GetChainInfo(ev,CHAININFO_TARGET_CARDS)
 	return g and g:IsExists(s.ctfilter,1,nil,tp)
 end
