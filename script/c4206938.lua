@@ -53,7 +53,7 @@ end
 s.counter_list={0x420}
 s.listed_series={0x420,0x420b}
 
-function s.ctfilter(c)
+function s.ctfilter(c,tp)
 	return c:IsFaceup() and c:IsControler(tp) and c:IsLocation(LOCATION_MZONE) and c:IsSetCard(0x420)
 end
 function s.accon(e,tp,eg,ep,ev,re,r,rp)
@@ -62,7 +62,8 @@ function s.accon(e,tp,eg,ep,ev,re,r,rp)
 	return g and g:IsExists(s.ctfilter,1,nil,tp)
 end
 function s.acop(e,tp,eg,ep,ev,re,r,rp)
-	e:GetHandler():AddCounter(0x420,1)
+local c=e:GetHandler()
+	e:GetHandler() c:AddCounter(0x420,1)
 end
 function s.cost1(e,tp,eg,ep,ev,re,r,rp,chk)
 	if chk==0 then return Duel.IsCanRemoveCounter(tp,1,0,0x420,2,REASON_COST) end
