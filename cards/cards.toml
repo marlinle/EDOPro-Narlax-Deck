@@ -487,7 +487,7 @@ id = 4206938
 name = "Nightmare World Tower"
 type = "spell field"
 set = "nightmare-king"
-effect = '''Each time a "Nightmare World" monster(s) is Normal or Special Summoned, place 1 Horny Counter on this card. Once per turn: You can remove Horny Counters from your field to activate 1 of these effects;
+effect = '''Each time a "Nightmare World" monster(s) you control is targeted by card effect, place 1 Horny Counter on this card. Once per turn: You can remove Horny Counters from your field to activate 1 of these effects;
 ●2: If your "Nightmare World" monster attacks this turn, your opponent cannot activate cards or effects until the end of the Damage Step.
 ●4: Add 1 "Nightmare World" monster from your Deck to your hand.
 ●8: Special Summon 1 "Nightmare Tech" monster from your Deck or Extra Deck, ignoring its Summoning conditions.'''

@@ -1,4 +1,5 @@
 -- Nightmare World Tower
+-- Coded by FunnyBones777
 local s, id = GetID()
 function s.initial_effect(c)
 	--Can hold Horny Counters
@@ -8,59 +9,61 @@ function s.initial_effect(c)
 	e1:SetType(EFFECT_TYPE_ACTIVATE)
 	e1:SetCode(EVENT_FREE_CHAIN)
 	c:RegisterEffect(e1)
-	--Place 1 counter on it each time a "Nightmare World" monster(s) is normal summoned
+	--Place 1 counter on it each time a "Nightmare World" monster(s) is targeted by card effect
 	local e2=Effect.CreateEffect(c)
 	e2:SetType(EFFECT_TYPE_FIELD+EFFECT_TYPE_CONTINUOUS)
 	e2:SetRange(LOCATION_FZONE)
-	e2:SetCode(EVENT_SUMMON_SUCCESS)
-	e2:SetOperation(s.ctop)
+	e2:SetCode(EVENT_BECOME_TARGET)
+	e2:SetProperty(EFFECT_FLAG_DELAY)
+	e2:SetCondition(s.accon)
+	e2:SetOperation(s.acop)
 	c:RegisterEffect(e2)
-	--Same as above, but for special summons
-	local e3=e2:Clone()
-	e3:SetCode(EVENT_SPSUMMON_SUCCESS)
-	c:RegisterEffect(e3)
 	--Remove 2 counters: opponent cannot activate card/effects until end of damage step
+	local e3=Effect.CreateEffect(c)
+	e3:SetDescription(aux.Stringid(id,0))
+	e3:SetType(EFFECT_TYPE_IGNITION)
+	e3:SetRange(LOCATION_FZONE)
+	e3:SetCountLimit(1,0,EFFECT_COUNT_CODE_SINGLE)
+	e3:SetCost(s.cost1)
+	e3:SetOperation(s.op1)
+	c:RegisterEffect(e3)
+	--Remove 4 counters: add 1 "Nightmare World" monster from deck
 	local e4=Effect.CreateEffect(c)
-	e4:SetDescription(aux.Stringid(id,0))
+	e4:SetCategory(CATEGORY_TOHAND+CATEGORY_SEARCH)
+	e4:SetDescription(aux.Stringid(id,1))
 	e4:SetType(EFFECT_TYPE_IGNITION)
 	e4:SetRange(LOCATION_FZONE)
 	e4:SetCountLimit(1,0,EFFECT_COUNT_CODE_SINGLE)
-	e4:SetCost(s.cost1)
-	e4:SetOperation(s.op1)
+	e4:SetCost(s.cost2)
+	e4:SetTarget(s.tg2)
+	e4:SetOperation(s.op2)
 	c:RegisterEffect(e4)
-	--Remove 4 counters: add 1 "Nightmare World" monster from deck
+	--Remove 8 counters: special summon 1 "Nightmare Tech" monster from deck or extra deck
 	local e5=Effect.CreateEffect(c)
-	e5:SetCategory(CATEGORY_TOHAND+CATEGORY_SEARCH)
-	e5:SetDescription(aux.Stringid(id,1))
+	e5:SetCategory(CATEGORY_SPECIAL_SUMMON)
+	e5:SetDescription(aux.Stringid(id,2))
 	e5:SetType(EFFECT_TYPE_IGNITION)
 	e5:SetRange(LOCATION_FZONE)
 	e5:SetCountLimit(1,0,EFFECT_COUNT_CODE_SINGLE)
-	e5:SetCost(s.cost2)
-	e5:SetTarget(s.tg2)
-	e5:SetOperation(s.op2)
+	e5:SetCost(s.cost3)
+	e5:SetTarget(s.tg3)
+	e5:SetOperation(s.op3)
 	c:RegisterEffect(e5)
-	--Remove 8 counters: special summon 1 "Nightmare Tech" monster from deck or extra deck
-	local e6=Effect.CreateEffect(c)
-	e6:SetCategory(CATEGORY_SPECIAL_SUMMON)
-	e6:SetDescription(aux.Stringid(id,2))
-	e6:SetType(EFFECT_TYPE_IGNITION)
-	e6:SetRange(LOCATION_FZONE)
-	e6:SetCountLimit(1,0,EFFECT_COUNT_CODE_SINGLE)
-	e6:SetCost(s.cost3)
-	e6:SetTarget(s.tg3)
-	e6:SetOperation(s.op3)
-	c:RegisterEffect(e6)
 end
 s.counter_list={0x420}
 s.listed_series={0x420,0x420b}
 
 function s.ctfilter(c)
-	return c:IsFaceup() and c:IsSetCard(0x420)
+	return c:IsFaceup() and c:IsControler(tp) and c:IsLocation(LOCATION_MZONE) and c:IsSetCard(0x420)
 end
-function s.ctop(e,tp,eg,ep,ev,re,r,rp)
-	if eg:IsExists(s.ctfilter,1,nil) then
-		e:GetHandler():AddCounter(0x420,1)
-	end
+function s.accon(e,tp,eg,ep,ev,re,r,rp)
+	if not re:IsHasProperty(EFFECT_FLAG_CARD_TARGET) then return false
+end
+	local g=Duel.GetChainInfo(ev,CHAININFO_TARGET_CARDS)
+	return g and g:IsExists(s.ctfilter,1,nil,tp)
+end
+function s.acop(e,tp,eg,ep,ev,re,r,rp)
+	e:GetHandler():AddCounter(0x420,1)
 end
 function s.cost1(e,tp,eg,ep,ev,re,r,rp,chk)
 	if chk==0 then return Duel.IsCanRemoveCounter(tp,1,0,0x420,2,REASON_COST) end
