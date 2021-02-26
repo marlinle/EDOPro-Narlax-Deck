@@ -375,34 +375,39 @@ set = "nightmare-king"
 effect = '''(This card is always treated as a "Nightmare World" card.) Each time a Zombie monster(s) is Special Summoned, while this card is already face-up in your Spell and Trap Zone: Inflict 400 damage to your opponent.'''
 ot = "CUSTOM"
 
-[card.coronavirus-alpha]
+[card.nt-x]
 id = 4206930
-name = "Coronavirus Alpha"
-attribute = "dark"
-level = 1
+name = "Nightmare Tech X"
+attribute = "light"
+level = 8
 pendulum-scale = 0
 pendulum-effect = '''While this card is on the field: The turn player can Fusion Summon 1 Fusion Monster from their Extra Deck, by banishing Fusion Materials listed on it from their hand or field.'''
 type = "monster normal pendulum"
-race = "fiend"
-set = "nightmare-king"
-flavor-text = '''The deadly coronavirus originated in the Nightmare World within the Bone Bone monsters. It is believed that these viruses are antibodies for their bones.'''
-atk = 0
-def = 0
+race = "machine"
+set = "nightmare-king nightmare-tech"
+flavor-text = '''This life-giving machine was created by Nightmare Tech in the Nightmare World. It is believed that the design of the machine came from a tree.'''
+atk = 1500
+def = 3000
 ot = "CUSTOM"
 
-[card.coronavirus-omega]
+[card.nt-y]
 id = 4206931
-name = "Coronavirus Omega"
+name = "Nightmare Tech Y"
 attribute = "dark"
-level = 1
+level = 8
 pendulum-scale = 13
-pendulum-effect = '''While this card is on the field: The turn player can Fusion Summon 1 Fusion Monster from their Extra Deck, by banishing Fusion Materials listed on it from their hand or field.'''
+pendulum-effect = '''When a "Nightmare Tech" monster of the below card type is Special Summoned from the Extra Deck to your field: You can activate the appropriate effect once per turn;
+●Fusion: Gain 500 LP.
+●Synchro: Your opponent cannot target that Special Summoned monster with card effects.
+●Xyz: Banish 1 card from the field or the Graveyard.
+●Pendulum: Draw 1 card, then discard 1 card.
+Once per turn, during your Standby Phase: Take 1000 damage.'''
 type = "monster normal pendulum"
-race = "fiend"
-set = "nightmare-king"
-flavor-text = '''The deadly coronavirus originated in the Nightmare World within the Bone Bone monsters. It is believed that these viruses are antibodies for their bones.'''
-atk = 0
-def = 0
+race = "machine"
+set = "nightmare-king nightmare-tech"
+flavor-text = '''This death-bringing machine was created by Nightmare Tech in the Nightmare World. It is believed that the design of the machine came from a raven.'''
+atk = 3000
+def = 1500
 ot = "CUSTOM"
 
 [card.origami-castle]
