@@ -384,7 +384,7 @@ pendulum-scale = 0
 pendulum-effect = '''While this card is on the field: The turn player can Fusion Summon 1 Fusion Monster from their Extra Deck, by banishing Fusion Materials listed on it from their hand or field.'''
 type = "monster normal pendulum"
 race = "machine"
-set = "nightmare-king nightmare-tech"
+set = "nightmare-king nk-nt"
 flavor-text = '''This life-giving machine was created by Nightmare Tech in the Nightmare World. It is believed that the design of the machine came from a tree.'''
 atk = 1500
 def = 3000
@@ -404,7 +404,7 @@ pendulum-effect = '''When a "Nightmare Tech" monster of the below card type is S
 Once per turn, during your Standby Phase: Take 1000 damage.'''
 type = "monster normal pendulum"
 race = "machine"
-set = "nightmare-king nightmare-tech"
+set = "nightmare-king nk-nt"
 flavor-text = '''This death-bringing machine was created by Nightmare Tech in the Nightmare World. It is believed that the design of the machine came from a raven.'''
 atk = 3000
 def = 1500
