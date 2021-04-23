@@ -342,7 +342,7 @@ race = "machine"
 set = "nightmare-king nk-nt"
 effect = '''3 "Horny Maiden" monsters
 (This card is always treated as a "Nightmare World" card.) If this card attacks a Defense Position monster, inflict piercing battle damage.'''
-atk = 4000
+atk = 3000
 def = 2000
 ot = "CUSTOM"
 
