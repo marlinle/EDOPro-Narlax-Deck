@@ -534,6 +534,6 @@ race = "machine"
 set = "nightmare-king nk-nt"
 effect = '''"Bone Bone" + 1+ non-Tuner "Horny Maiden" monsters
 (This card is always treated as a "Nightmare World" card.) This card can attack your opponent directly.'''
-atk = 3250
-def = 1750
+atk = 3000
+def = 1700
 ot = "CUSTOM"
