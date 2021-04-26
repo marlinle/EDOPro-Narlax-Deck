@@ -555,6 +555,6 @@ ot = "CUSTOM"
 id = 4206943
 name = "Rank-Up-Magic Amygdalan Force"
 type = "spell quick-play"
-set = "rank-up-magic nightmare-king"
+set = "nightmare-king"
 effect = '''Target 1 face-up "Nightmare Tech" Xyz monster you control; Special Summon from your Extra Deck, 1 "Cosmic Nightmare" monster with the same Attribute as that monster you control but 2 Ranks higher, by using it as the Xyz Material. (This Special Summon is treated as an Xyz Summon. Xyz Materials attached to it also become Xyz Materials on the Summoned monster.) Then, if possible, detach 1 Xyz Material from a monster your opponent controls and attach it to the Summoned monster as an Xyz Material.'''
 ot = "CUSTOM"
