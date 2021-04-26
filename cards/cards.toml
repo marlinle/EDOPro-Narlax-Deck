@@ -537,3 +537,24 @@ effect = '''"Bone Bone" + 1+ non-Tuner "Horny Maiden" monsters
 atk = 3000
 def = 1700
 ot = "CUSTOM"
+
+[card.amygdala]
+id = 4206942
+name = "Amygdala"
+attribute = "dark"
+level = 2
+type = "monster normal tuner"
+race = "fiend"
+set = "nightmare-king"
+flavor-text = '''"Eyes on the inside." As many blood-crazed worshippers say as they pray to this nightmarish creature from the cosmos. In fact, these cosmic creatures are used by the Nightmare King to power his war machines by harvesting their blood.'''
+atk = 1300
+def = 300
+ot = "CUSTOM"
+
+[card.rum-amygdalan-force]
+id = 4206943
+name = "Rank-Up-Magic Amygdalan Force"
+type = "spell quick-play"
+set = "rank-up-magic nightmare-king"
+effect = '''Target 1 face-up "Nightmare Tech" Xyz monster you control; Special Summon from your Extra Deck, 1 "Cosmic Nightmare" monster with the same Attribute as that monster you control but 2 Ranks higher, by using it as the Xyz Material. (This Special Summon is treated as an Xyz Summon. Xyz Materials attached to it also become Xyz Materials on the Summoned monster.) Then, if possible, detach 1 Xyz Material from a monster your opponent controls and attach it to the Summoned monster as an Xyz Material.'''
+ot = "CUSTOM"

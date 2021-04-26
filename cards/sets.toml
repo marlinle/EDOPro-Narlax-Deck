@@ -13,3 +13,7 @@ name = '''Nightmare Tech'''
 [set.nk-black-phantom]
 code = 0x420c
 name = '''Black Phantom'''
+
+[set.nk-cn]
+code = 0x420d
+name = '''Cosmic Nightmare'''
