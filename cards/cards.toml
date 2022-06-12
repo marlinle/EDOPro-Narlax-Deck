@@ -10,3 +10,55 @@ effect = '''if this card destroyed by a monster. Destroy a monster that have lev
 atk = 1000
 def = 1000
 ot = "CUSTOM"
+
+[card.terra-dragon]
+id = 2608002
+name = "Terra Dragon"
+attribute = "Earth"
+level = 3
+type = "monster effect tuner"
+race = "dragon"
+set = "dragon-city"
+effect = '''if this card is normal summon, add 1 monster card form your deck '''
+atk = 1000
+def = 1000
+ot = "CUSTOM"
+
+[card.wind-dragon]
+id = 2608003
+name = "Wind Dragon"
+attribute = "wind"
+level = 3
+type = "monster effect tuner"
+race = "dragon"
+set = "dragon-city"
+effect = '''If this card normal summon, destroy 1 spell/trap card '''
+atk = 1000
+def = 1000
+ot = "CUSTOM"
+
+[card.sea-dragon]
+id = 2608004
+name = "Sea Dragon"
+attribute = "water"
+level = 3
+type = "monster effect tuner"
+race = "dragon"
+set = "dragon-city"
+effect = '''if this card used at a sychro material, draw 1 card '''
+atk = 1000
+def = 1000
+ot = "CUSTOM"
+
+[card.dark-dragon]
+id = 2608005
+name = "Dark Dragon"
+attribute = "dark"
+level = 3
+type = "monster effect tuner"
+race = "dragon"
+set = "dragon-city"
+effect = '''if this card destroyed, destroy 1 dark monster '''
+atk = 1000
+def = 1000
+ot = "CUSTOM"

@@ -11,6 +11,6 @@ cards-nightmare-king.cdb: cards/cards.toml cards/sets.toml cards/macro.toml conf
 
 pics: $(artwork) config.toml cards/cards.toml cards/sets.toml cards/macro.toml Makefile
 	ygofab compose -Pall -Eall
-	rm -rf pics/field
+	rm -r pics/field
 	mv pics/EDOPro/* pics/
 	rmdir pics/EDOPro
