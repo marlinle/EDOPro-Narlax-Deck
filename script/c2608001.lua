@@ -1,7 +1,7 @@
 -- Flame Dragon
 local s, id = GetID()
 function s.initial_effect(c)
-  -- if this card is destroyed by battle. Destroy a monster that have level 4 or lower
+  -- If this card is destroyed by battle. Destroy a monster that have level 4 or lower
   local e1=Effect.CreateEffect(c)
 	e1:SetCategory(CATEGORY_DESTROY)
 	e1:SetType(EFFECT_TYPE_ACTIONS)
@@ -15,7 +15,7 @@ function s.condition(e,tp,eg,ep,ev,re,r,rp)
 	return tp~=Duel.GetTurnPlayer()
 end
 function s.filter(c)
-	return Card.GetLevel(c) <= 4
+	return c:IsAttackPos()
 end
 function s.target(e,tp,eg,ep,ev,re,r,rp,chk)
 	if chk==0 then return Duel.IsExistingMatchingCard(s.filter,tp,0,LOCATION_MZONE,1,nil) end
